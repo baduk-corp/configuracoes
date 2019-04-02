@@ -6,12 +6,15 @@ Todos os arquivos de configurações do servidor
 apt-get update
 apt-get upgrade
 ```
+Apache
 ``` Apache
 apt-get install apache2
 ```
+PostgreSQL
 ``` PostgreSQL
 apt-get install postgresql
 ```
+PHP 7.2
 ``` PHP 7.2
 apt install apt-transport-https lsb-release ca-certificates
 wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
